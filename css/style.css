@@ -1,0 +1,139 @@
+:root{
+  --primary-color: rgb(68, 68, 212);
+  --secondary-color: rgb(37, 37, 37);
+}
+
+/* CSS Reset */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: rgb(228, 228, 228);
+  line-height: 1.6;
+}
+
+ul{
+  list-style: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: rgb(196, 196, 196);
+}
+
+h1, h2{
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p{
+  margin: 10px 0;
+}
+
+img{
+  width: 100%;
+}
+
+/* Utility Classes */
+
+.container{
+  padding: 0px 20px;
+}
+
+.feature-text{
+  color: var(--primary-color)
+}
+
+.current-page{
+  border-bottom: 2px solid var(--primary-color);
+}
+
+/* Main Styling */
+
+/* Navbar */
+
+#nav-bar .container{
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-bar .container ul li{
+  display: inline-block;
+  padding: 10px 5px;
+  border-left: 1px solid white;
+}
+
+#nav-bar .container ul li a{
+  padding: 2px 5px;
+  font-size: .8rem;
+}
+
+/* Home Feature */
+
+
+.main-feature{
+  height: 45vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.575),#333), url(/resources/img/portfolio-hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+#title-box{
+  width: 550px;
+  font-size: 1.5rem;
+  margin-left: 5%;
+  padding: 100px 0px;
+}
+
+#title-box h1{
+  line-height: 3.5rem;
+  color: #fff;
+}
+
+#title-box i{
+  padding-left: 5px;
+  color: var(--primary-color);
+}
+
+.projects{
+background-color: var(--secondary-color);
+}
+
+.projects h2{
+  margin-left: 5%;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+
+.flex-box{
+  text-align: center;
+  width: 20%;
+
+}
+
+.flex-box img{
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+.flex-box a{
+  color: #fff;
+}
+
